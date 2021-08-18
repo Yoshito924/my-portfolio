@@ -4,8 +4,8 @@ class Footer extends React.Component {
     render() {
         return (
             <>
-                <div>aaa</div>
-                <Link href="/"></Link>
+                <div>© 2021- KHUFRUDAMO NOTES (since 2009)</div>
+                <Link href="/">トップページへ</Link>
             </>
         )
     };
