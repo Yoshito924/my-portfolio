@@ -1,14 +1,13 @@
 import React from 'react';
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link'
 class Footer extends React.Component {
     render() {
         return (
             <>
-
                 <div>aaa</div>
-                <a href="/" target="_blank" rel="noopener noreferrer"></a>
+                <Link href="/"></Link>
             </>
         )
     };
