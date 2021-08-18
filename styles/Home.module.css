@@ -113,9 +113,23 @@
   margin-left: 0.5rem;
 }
 
+/* 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+} */
+
+/* 500px以下の画面で適用 */
+
+@media only screen and (max-width: 600px) {
+  table.mobile-scroll {
+    white-space: nowrap;
+    /* 折り返されないように */
+    overflow-x: auto;
+    /* 横スクロール */
+    -webkit-overflow-scrolling: touch;
+    /* スマホでスムーズにスクロールできるように */
   }
 }
