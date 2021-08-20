@@ -38,18 +38,50 @@ class OriginalApp extends React.Component {
                     <Container fixed>
                         <main className={styles.main}>
 
-                            <div className="flex">
-                                <div className="w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
+                            <div className="lg:flex">
+                                <div className="sm:w-1/1 lg:w-8/12">
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">制作したアプリ紹介</h2>
 
+                                    <p className="mt-3 text-gray-500 w-2/5">プログラミングで作った主な成果物</p>
 
-                                    <div className="py-4">準備中</div>
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://readability-checker.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>O-TO【音楽理論Webアプリ】</a></h3>
+
+                                    <p className="my-2">
+                                        音楽理論の学習・活用に使える個人開発Webアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        どれも自分が20年以上音楽をやる中で、「あったら便利」だと思う機能を具現化しました。
+                                    </p>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://readability-checker.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>読みやすさチェッカー【文章校正Webアプリ】</a></h3>
+                                    <p className="my-2">
+                                        文章の読みにくい部分をしてくれる個人開発Webアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        おまけで採点機能もあります。
+                                    </p>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>ポートフォリオ・サイト</h3>
+                                    <p className="my-2">
+                                        このサイトです。
+                                    </p>
+                                    <p className="my-2">
+                                        Next.jsで作りました。
+                                    </p>
+
+                                    <p className="my-2">　</p>
                                 </div>
 
 
-                                <div className="w-1/12"></div>
+                                <div className="sm:w-1/1 lg:w-1/12">　</div>
 
-                                <div className="w-3/12">
+                                <div className="sm:w-1/1 lg:w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
 

@@ -14,10 +14,10 @@ const features = [
   { name: '誕生日', description: '4月19日（牡羊座）' },
   { name: '所属クリエイター・チーム', description: 'KHUFRUDAMO NOTES（クフルダモ・ノーツ）' },
   { name: '演奏できる楽器', description: 'ギター/ベース/ドラム/キーボード' },
-  { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/採譜/楽曲分析' },
+  { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/マスタリング/採譜/譜面作成/楽曲分析' },
   { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
   { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
-]
+];
 
 const Home: NextPage = () => {
   return (
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         <Container fixed>
           <main className={styles.main}>
             <div className="bg-white mt-2">
-              <div className="lg:px-8 lg:pt-8">
+              {/* <div className="lg:px-8 lg:pt-8">
                 <Image
                   src="/yoshito.png"
                   alt="プロフィール写真"
@@ -48,15 +48,15 @@ const Home: NextPage = () => {
                   width={230}
                   height={230}
                 />
-              </div>
+              </div> */}
               <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
                 <div>
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Yoshito Kimura</h2>
                   <p className="mt-3 text-gray-500">
-                    キムラ ヨシト（クフルダモ・ノーツ）
+                    キムラ ヨシト
                   </p>
 
-                  <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                  <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:gap-x-2">
                     {features.map((feature: any) => (
                       <div key={feature.name} className="border-t border-gray-300 pt-4">
                         <dt className="font-medium text-gray-900">{feature.name}</dt>
@@ -65,7 +65,6 @@ const Home: NextPage = () => {
                     ))}
                   </dl>
                 </div>
-
 
                 <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-4 lg:gap-4 picture">
                   <RightColumn></RightColumn>

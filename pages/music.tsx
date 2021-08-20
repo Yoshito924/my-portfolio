@@ -38,8 +38,8 @@ class Music extends React.Component {
                     <Container fixed>
                         <main className={styles.main}>
 
-                            <div className="flex">
-                                <div className="w-8/12">
+                            <div className="lg:flex">
+                                <div className="sm:w-1/1 lg:w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
 
                                     <p className="my-3 text-gray-500">
@@ -50,21 +50,60 @@ class Music extends React.Component {
 
                                     <h3 className={styles.midashi}>和風ジェント・シリーズ</h3>
 
-                                    <p className="mt-3 text-gray-500 w-2/5">
+                                    <div className="lg:flex">
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">和風とジェントを混ぜるって…それは、とってもクールなアイデアだと思ったんだよ。</p>
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
 
-                                        <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
-                                            width={"100%"}
-                                            height={"380"}
-                                            frameBorder={"0"}
-                                            // allowtransparency={"true"}
-                                            allow={"encrypted-media"}></iframe>
-                                    </p>
+                                            <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
+                                                width={"100%"}
+                                                height={"380"}
+                                                frameBorder={"0"}
+                                                // allowtransparency={"true"}
+                                                allow={"encrypted-media"}></iframe>
+                                        </p>
+                                    </div>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>1stアルバム：FRUIT BASKET</h3>
+                                    <div className="lg:flex">
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">どれもクールな曲ばかりのアルバムだと思う。ぜひ聴いてみて欲しいな。</p>
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
+
+                                            <iframe src={"https://open.spotify.com/embed/album/2XcUqHkQoPT6CngNfmDf50"}
+                                                width={"100%"}
+                                                height={"380"}
+                                                frameBorder={"0"}
+                                                // allowtransparency={"true"}
+                                                allow={"encrypted-media"}></iframe>
+                                        </p>
+                                    </div>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>2ndアルバム：DECADE</h3>
+
+                                    <div className="lg:flex">
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">チャレンジングでクレイジーなアルバムだ。楽しんでもらえると嬉しいね。</p>
+
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
+
+                                            <iframe src={"https://open.spotify.com/embed/album/3RwtIbB5CzaUGp6C2dIGRi"}
+                                                width={"100%"}
+                                                height={"380"}
+                                                frameBorder={"0"}
+                                                // allowtransparency={"true"}
+                                                allow={"encrypted-media"}></iframe>
+                                        </p>
+                                    </div>
+
+                                    <p className="my-2">　</p>
 
                                 </div>
 
-                                <div className="w-1/12"></div>
+                                <div className="sm:w-1/1 lg:w-1/12">　</div>
 
-                                <div className="w-3/12">
+                                <div className="sm:w-1/1 lg:w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
 

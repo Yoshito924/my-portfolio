@@ -8,12 +8,12 @@ import 'tailwindcss/tailwind.css'
 import Container from '@material-ui/core/Container';
 
 const features = [
-    { name: '誕生日', description: '4月19日（牡羊座）' },
-    { name: 'クリエイター・チーム', description: 'KHUFRUDAMO NOTES（クフルダモ・ノーツ）' },
-    { name: '演奏できる楽器', description: 'ギター/ベース/ドラム/キーボード' },
-    { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/採譜/楽曲分析' },
-    { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
-    { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
+    { name: 'ギター/ベース', description: 'PRS custom24/Ibanez guitars TAM100/Music Man StingRay' },
+    { name: 'アンプ', description: 'Fractal Audio Systems Axe-Fx II' },
+    { name: 'キーボード', description: 'KORG KRONOS' },
+    { name: '愛用音源', description: 'UVI Falcon/BFD3/Superior Drummer3/KOMPLETE/Keyscapeなど' },
+    { name: 'ミックス関係', description: 'UAD2,Waves,iZotope,FabFilterなど' },
+    { name: 'DAW/譜面作成', description: 'Cubase/Finale' },
 ]
 
 class InstrumentGear extends React.Component {
@@ -38,19 +38,11 @@ class InstrumentGear extends React.Component {
                     <Container fixed>
                         <main className={styles.main}>
 
-                            <div className="flex">
-                                <div className="w-4/5">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
+                            <div className="lg:flex">
+                                <div className="sm:w-1/1 lg:w-8/12">
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">楽器演奏/機材の紹介</h2>
 
-                                    <p className="mt-3 text-gray-500">
-                                        キムラ ヨシト（クフルダモ・ノーツ）
-                                    </p>
-
-                                    <p className="mt-3 text-gray-500 w-2/5">
-                                        <h2>和風ジェント</h2>
-
-                                        <p>O-TO【音楽理論ウェブアプリ】</p>
-                                    </p>
+                                    <p className="mt-3 text-gray-500 w-2/5">主な使用機材の紹介</p>
 
                                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                                         {features.map((feature: any) => (
@@ -62,8 +54,9 @@ class InstrumentGear extends React.Component {
                                     </dl>
                                 </div>
 
+                                <div className="sm:w-1/1 lg:w-1/12">　</div>
 
-                                <div className="w-1/5">
+                                <div className="sm:w-1/1 lg:w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
 

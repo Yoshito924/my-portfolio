@@ -38,17 +38,17 @@ class MusicTheory extends React.Component {
                     <Container fixed>
                         <main className={styles.main}>
 
-                            <div className="flex">
+                            <div className="lg:flex">
 
-                                <div className="w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽理論/レッスン</h2>
+                                <div className="sm:w-1/1 lg:w-8/12">
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽理論講座/レッスン</h2>
 
                                     <div className="py-4">準備中</div>
                                 </div>
 
-                                <div className="w-1/12"></div>
+                                <div className="sm:w-1/1 lg:w-1/12">　</div>
 
-                                <div className="w-3/12">
+                                <div className="sm:w-1/1 lg:w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
 

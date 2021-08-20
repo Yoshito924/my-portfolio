@@ -30,8 +30,8 @@ class Contact extends React.Component {
                     <Container fixed>
                         <main className={styles.main}>
 
-                            <div className="flex">
-                                <div className="w-8/12">
+                            <div className="lg:flex">
+                                <div className="sm:w-1/1 lg:w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">コンタクト</h2>
 
                                     <p className="my-3 text-gray-500">
@@ -66,9 +66,9 @@ class Contact extends React.Component {
 
                                 </div>
 
-                                <div className="w-1/12"></div>
+                                <div className="sm:w-1/1 lg:w-1/12">　</div>
 
-                                <div className="w-3/12">
+                                <div className="sm:w-1/1 lg:w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
 
