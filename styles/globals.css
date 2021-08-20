@@ -5,9 +5,3 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  background-color: #f5f5f5;
-}

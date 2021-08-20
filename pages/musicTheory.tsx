@@ -43,7 +43,37 @@ class MusicTheory extends React.Component {
                                 <div className="sm:w-1/1 lg:w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽理論講座/レッスン</h2>
 
-                                    <div className="py-4">準備中</div>
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>音楽理論の記事</h3>
+
+                                    <p className="my-2">
+                                        ブログに音楽理論やDTMに関係する記事を多数掲載しています。
+                                    </p>
+                                    <p className="my-2">
+                                        → <a className={styles.linka} href="https://khufrudamonotes.com/category/music-theory-and-dtm" target={"_blank"} rel={"noopener noreferrer"}>音楽理論記事の一覧</a>
+                                    </p>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>YouTube動画</h3>
+
+                                    <p className="my-2">
+                                        音楽理論や、楽曲分析の動画を公開しています。
+                                    </p>
+                                    <p className="my-2">
+                                        → <a className={styles.linka} href="https://www.youtube.com/user/kimukydr/videos" target={"_blank"} rel={"noopener noreferrer"}>YouTubeチャンネル</a>
+                                    </p>
+                                    {/* <iframe
+                                        width={"560"}
+                                        height={"315"}
+                                        src={"https://www.youtube.com/embed/OX0rXFNb_jw"}
+                                        title={"YouTube video player"}
+                                        frameborder={"0"}
+                                        allow={"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}
+                                        allowfullscreen>
+                                    </iframe> */}
+
                                 </div>
 
                                 <div className="sm:w-1/1 lg:w-1/12">　</div>
