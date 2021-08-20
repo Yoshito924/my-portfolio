@@ -42,7 +42,7 @@ class InstrumentGear extends React.Component {
                                 <div className="sm:w-1/1 lg:w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">楽器演奏/機材の紹介</h2>
 
-                                    <p className="mt-3 text-gray-500 w-2/5">主な使用機材の紹介</p>
+                                    <p className="mt-3 text-gray-500">主な使用機材の紹介</p>
 
                                     <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                                         {features.map((feature: any) => (

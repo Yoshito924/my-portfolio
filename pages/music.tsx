@@ -46,28 +46,16 @@ class Music extends React.Component {
                                         主な音楽作品の紹介
                                     </p>
 
-                                    <p className="my-2">　</p>
-
-                                    <h3 className={styles.midashi}>和風ジェント・シリーズ</h3>
-
-                                    <div className="lg:flex">
-                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">和風とジェントを混ぜるって…それは、とってもクールなアイデアだと思ったんだよ。</p>
-                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
-
-                                            <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
-                                                width={"100%"}
-                                                height={"380"}
-                                                frameBorder={"0"}
-                                                // allowtransparency={"true"}
-                                                allow={"encrypted-media"}></iframe>
-                                        </p>
-                                    </div>
 
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi}>1stアルバム：FRUIT BASKET</h3>
                                     <div className="lg:flex">
-                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">どれもクールな曲ばかりのアルバムだと思う。ぜひ聴いてみて欲しいな。</p>
+
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">
+                                            <p>ジェントサウンドと和風を融合した楽曲を中心に、さまざまな音楽を展開するクフルダモノーツのファーストアルバム。</p>
+                                        </p>
+
                                         <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
 
                                             <iframe src={"https://open.spotify.com/embed/album/2XcUqHkQoPT6CngNfmDf50"}
@@ -84,10 +72,12 @@ class Music extends React.Component {
                                     <h3 className={styles.midashi}>2ndアルバム：DECADE</h3>
 
                                     <div className="lg:flex">
-                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">チャレンジングでクレイジーなアルバムだ。楽しんでもらえると嬉しいね。</p>
-
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">
+                                            <p>
+                                                ジェントサウンドと日本の音楽を融合した楽曲を中心に、さまざまな音楽を展開するクフルダモノーツのセカンドアルバム！</p>
+                                            <p>過去10年間に制作された楽曲から選りすぐりの19曲を収録！</p>
+                                        </p>
                                         <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
-
                                             <iframe src={"https://open.spotify.com/embed/album/3RwtIbB5CzaUGp6C2dIGRi"}
                                                 width={"100%"}
                                                 height={"380"}
@@ -97,6 +87,28 @@ class Music extends React.Component {
                                         </p>
                                     </div>
 
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi}>和風ジェント・シリーズ</h3>
+
+                                    <div className="lg:flex">
+
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-3/5">
+                                            <p>
+                                                あるとき、「和風テイストとジェントのサウンドを混ぜたら、クールになるんじゃないか？」ってアイディアが浮かんだ。</p>
+                                            <p>そして、実際にやってみたらクールだったよ。</p>
+                                        </p>
+
+                                        <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">
+
+                                            <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
+                                                width={"100%"}
+                                                height={"380"}
+                                                frameBorder={"0"}
+                                                // allowtransparency={"true"}
+                                                allow={"encrypted-media"}></iframe>
+                                        </p>
+                                    </div>
                                     <p className="my-2">　</p>
 
                                 </div>

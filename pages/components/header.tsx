@@ -8,9 +8,12 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
     { name: 'ホーム', href: '/', current: true },
+    { name: '連絡先', href: '/contact', current: false },
     { name: '音楽作品', href: '/music', current: false },
-    { name: '制作アプリ', href: '/originalApp', current: false },
-    { name: 'リンク集', href: '/snsLink', current: false },
+    { name: '使用機材', href: '/instrumentGear', current: false },
+    { name: 'アプリ', href: '/originalApp', current: false },
+    { name: '音楽理論', href: '/musicTheory', current: false },
+    { name: 'リンク', href: '/snsLink', current: false },
 ]
 
 function classNames(...classes: any[]) {
