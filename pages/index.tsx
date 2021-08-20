@@ -2,99 +2,86 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from './components/header'
 import Footer from './components/footer'
+import RightColumn from './components/rightColumn'
 import styles from '../styles/Home.module.css'
 import 'tailwindcss/tailwind.css'
+import Link from 'next/link'
+import Button from '@material-ui/core/Button';
+import Container from '@material-ui/core/Container';
+import Image from 'next/image'
+
+const features = [
+  { name: '誕生日', description: '4月19日（牡羊座）' },
+  { name: '所属クリエイター・チーム', description: 'KHUFRUDAMO NOTES（クフルダモ・ノーツ）' },
+  { name: '演奏できる楽器', description: 'ギター/ベース/ドラム/キーボード' },
+  { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/採譜/楽曲分析' },
+  { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
+  { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
+]
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-
+    <>
       <Head>
         <title>Yoshito Kimura-Portfolio</title>
         <meta name="description" content="Yoshito Kimura-Portfolio" />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="icon" href="/siteIcon/favicon.ico" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+        />
       </Head>
-
-      <main className={styles.main}>
+      <body>
         {/* ヘッダーのコンポーネント */}
         <header className={styles.header}>
           <Header></Header>
         </header>
 
+        <Container fixed>
+          <main className={styles.main}>
+            <div className="bg-white mt-2">
+              <div className="lg:px-8 lg:pt-8">
+                <Image
+                  src="/yoshito.png"
+                  alt="プロフィール写真"
+                  className="rounded-lg"
+                  width={230}
+                  height={230}
+                />
+              </div>
+              <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+                <div>
+                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Yoshito Kimura</h2>
+                  <p className="mt-3 text-gray-500">
+                    キムラ ヨシト（クフルダモ・ノーツ）
+                  </p>
 
-        <body>
-          <h1 className={styles.title}>
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
-          </h1>
+                  <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                    {features.map((feature: any) => (
+                      <div key={feature.name} className="border-t border-gray-300 pt-4">
+                        <dt className="font-medium text-gray-900">{feature.name}</dt>
+                        <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
 
-          <div className={"chat-notification"}>
-            <div className={"chat-notification-content"}>
-              <h4 className={"text-bule-700"}>ChitChat</h4>
-              <p className={"chat-notification-message"}>You have a new message!</p>
+
+                <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-4 lg:gap-4 picture">
+                  <RightColumn></RightColumn>
+                </div>
+
+              </div>
             </div>
-          </div>
-
-          <div className={"p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4"}>
-            <div className={"flex-shrink-0"}>
-
-            </div>
-            <div>
-              <div className={"text-xl font-medium text-blue-700"}>ChitChat</div>
-              <p className={"text-gray-500"}>You have a new message!</p>
-            </div>
-          </div>
-
-          <div className={styles.title}>
-            aahhhaaa!
-          </div>
-
-          <p className={styles.description}>
-            Get started by editing{' '}
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-
-
-          <div className={styles.grid}>
-            <a href="https://nextjs.org/docs" className={styles.card}>
-              <h2>自己紹介 &rarr;</h2>
-              <p>できることをまとめました。</p>
-            </a>
-
-            <a href="https://nextjs.org/learn" className={styles.card}>
-              <h2>作品 &rarr;</h2>
-              <p>作ったものをまとめました。</p>
-            </a>
-
-            <a
-              href="https://github.com/vercel/next.js/tree/master/examples"
-              className={styles.card}
-            >
-              <h2>お問い合わせ &rarr;</h2>
-              <p>お仕事のご依頼・お問い合せ</p>
-              <p>メッセージ</p>
-            </a>
-
-            <a
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              className={styles.card}
-            >
-              <h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
-          </div>
-        </body>
+          </main >
+        </Container>
 
         {/* フッターのコンポーネント */}
-        <footer className={styles.footer}>
+        <footer className={styles.footer} >
           <Footer></Footer>
-        </footer>
-
-      </main>
-
-    </div >
+        </footer >
+      </body >
+    </>
   )
 }
 

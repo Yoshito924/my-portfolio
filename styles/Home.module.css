@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -9,12 +11,13 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .footer {
@@ -24,6 +27,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
+}
+
+.midashi {
+  padding: 0.5rem 1.2rem;
+  font-size: clamp(0.9rem, 0.9rem + 1vw, 1.4rem);
+  border: 3px solid gray;
+  color: gray;
+}
+
+.linka {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linka:link {
+  color: #0000ff;
+}
+
+.linka:visited {
+  color: #6600ff;
+}
+
+.linka:hover {
+  color: #ff0099;
+  text-decoration: underline;
+}
+
+.linka:active {
+  color: #33cc00;
 }
 
 .footer a {
@@ -53,6 +86,34 @@
 .title,
 .description {
   text-align: center;
+}
+
+/* 全体の枠 */
+.imageText {
+  position: relative;
+}
+
+.imageText:hover {
+  position: relative;
+  transform: scale(1.05, 1.05);
+}
+
+/* 重ねる文字 */
+.overlappingText {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  line-height: 100%;
+  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
 }
 
 .description {
@@ -111,6 +172,10 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.p {
+  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
 }
 
 /* 

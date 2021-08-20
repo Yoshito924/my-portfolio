@@ -16,7 +16,7 @@ const features = [
     { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
 ]
 
-class Music extends React.Component {
+class OriginalApp extends React.Component {
     render() {
         return (
             <>
@@ -42,25 +42,10 @@ class Music extends React.Component {
                                 <div className="w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
 
-                                    <p className="my-3 text-gray-500">
-                                        主な音楽作品の紹介
-                                    </p>
 
-                                    <p className="my-2">　</p>
-
-                                    <h3 className={styles.midashi}>和風ジェント・シリーズ</h3>
-
-                                    <p className="mt-3 text-gray-500 w-2/5">
-
-                                        <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
-                                            width={"100%"}
-                                            height={"380"}
-                                            frameBorder={"0"}
-                                            // allowtransparency={"true"}
-                                            allow={"encrypted-media"}></iframe>
-                                    </p>
-
+                                    <div className="py-4">準備中</div>
                                 </div>
+
 
                                 <div className="w-1/12"></div>
 
@@ -69,10 +54,6 @@ class Music extends React.Component {
                                 </div>
 
                             </div>
-
-
-
-
                         </main >
                     </Container>
 
@@ -86,4 +67,4 @@ class Music extends React.Component {
     }
 }
 
-export default Music;
+export default OriginalApp;

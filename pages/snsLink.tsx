@@ -3,20 +3,22 @@ import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Header from './components/header'
 import Footer from './components/footer'
-import RightColumn from './components/rightColumn'
+import LinkTree from './components/linkTree'
 import 'tailwindcss/tailwind.css'
 import Container from '@material-ui/core/Container';
+import Image from 'next/image'
+import RightColumn from './components/rightColumn'
 
 const features = [
-    { name: '誕生日', description: '4月19日（牡羊座）' },
-    { name: 'クリエイター・チーム', description: 'KHUFRUDAMO NOTES' },
-    { name: '演奏できる楽器', description: 'ギター/ベース/ドラム/キーボード' },
-    { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/採譜/楽曲分析' },
-    { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
-    { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
+    { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
+    { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
+    { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
+    { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
+    { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
+    { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
 ]
 
-class Music extends React.Component {
+class SnsLink extends React.Component {
     render() {
         return (
             <>
@@ -29,6 +31,7 @@ class Music extends React.Component {
                         content="minimum-scale=1, initial-scale=1, width=device-width"
                     />
                 </Head>
+
                 <body>
                     {/* ヘッダーのコンポーネント */}
                     <header className={styles.header}>
@@ -37,29 +40,14 @@ class Music extends React.Component {
 
                     <Container fixed>
                         <main className={styles.main}>
-
                             <div className="flex">
                                 <div className="w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">Yoshito Kimura リンク集</h2>
 
-                                    <p className="my-3 text-gray-500">
-                                        主な音楽作品の紹介
+                                    <p className="mt-3 text-gray-500">
+                                        キムラ ヨシト（クフルダモ・ノーツ）リンク集
                                     </p>
-
-                                    <p className="my-2">　</p>
-
-                                    <h3 className={styles.midashi}>和風ジェント・シリーズ</h3>
-
-                                    <p className="mt-3 text-gray-500 w-2/5">
-
-                                        <iframe src={"https://open.spotify.com/embed/playlist/3jCGY6ordKF9kBWGMfmh2M"}
-                                            width={"100%"}
-                                            height={"380"}
-                                            frameBorder={"0"}
-                                            // allowtransparency={"true"}
-                                            allow={"encrypted-media"}></iframe>
-                                    </p>
-
+                                    <LinkTree></LinkTree>
                                 </div>
 
                                 <div className="w-1/12"></div>
@@ -67,12 +55,7 @@ class Music extends React.Component {
                                 <div className="w-3/12">
                                     <RightColumn></RightColumn>
                                 </div>
-
                             </div>
-
-
-
-
                         </main >
                     </Container>
 
@@ -86,4 +69,4 @@ class Music extends React.Component {
     }
 }
 
-export default Music;
+export default SnsLink;
