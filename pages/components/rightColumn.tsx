@@ -25,6 +25,23 @@ class RightColumn extends React.Component {
                     </div>
                 </Link>
 
+                <Link href="/originalMusic" passHref>
+                    <div className={styles.imageText}>
+                        <div className={styles.backgroundImage}>
+                            <Image
+                                src="/XR4A1201-2.jpg"
+                                alt="葉桜の写真"
+                                className="bg-gray-100 rounded-lg"
+                                width={1000}
+                                height={600}
+                            />
+                            <div className={styles.overlappingText}>
+                                音楽作品紹介
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
                 <Link href="/gear" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
@@ -54,23 +71,6 @@ class RightColumn extends React.Component {
                             />
                             <div className={styles.overlappingText}>
                                 開発アプリ紹介
-                            </div>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link href="/originalMusic" passHref>
-                    <div className={styles.imageText}>
-                        <div className={styles.backgroundImage}>
-                            <Image
-                                src="/XR4A1201-2.jpg"
-                                alt="葉桜の写真"
-                                className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
-                            />
-                            <div className={styles.overlappingText}>
-                                音楽作品紹介
                             </div>
                         </div>
                     </div>
