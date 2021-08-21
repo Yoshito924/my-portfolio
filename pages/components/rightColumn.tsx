@@ -87,7 +87,7 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                音楽理論講座/レッスン
+                                音楽系の教材
                             </div>
                         </div>
                     </div>

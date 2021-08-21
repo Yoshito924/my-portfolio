@@ -1,6 +1,6 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css'
-
+import Image from 'next/image'
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
@@ -39,10 +39,13 @@ class Header extends React.Component {
                                         )}
                                     </Disclosure.Button>
                                 </div>
-                                <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                                    <div className="flex-shrink-0 flex items-center">
 
+                                <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+
+                                    <div className="flex-shrink-0 flex items-center text-white">
+                                        Yoshito Kimura
                                     </div>
+
                                     <div className="hidden sm:block sm:ml-6">
                                         <div className="flex space-x-4">
                                             {navigation.map((item) => (
@@ -61,6 +64,7 @@ class Header extends React.Component {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                                     {/* <button
                                         type="button"

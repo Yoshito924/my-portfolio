@@ -41,7 +41,8 @@ class MusicTheory extends React.Component {
                             <div className="lg:flex">
 
                                 <div className="sm:w-1/1 lg:w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽理論講座/レッスン</h2>
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽理論</h2>
+                                    <p className="mt-3 text-gray-500 w-2/5">音楽理論系の教育コンテンツ</p>
 
                                     <p className="my-2">　</p>
 
@@ -64,6 +65,21 @@ class MusicTheory extends React.Component {
                                     <p className="my-2">
                                         → <a className={styles.linka} href="https://www.youtube.com/user/kimukydr/videos" target={"_blank"} rel={"noopener noreferrer"}>YouTubeチャンネル</a>
                                     </p>
+                                    <p className="my-2">　</p>
+
+
+                                    <h3 className={styles.midashi}>
+                                        <a className={styles.linka} href="https://readability-checker.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
+                                            O-TO【音楽理論Webアプリ】
+                                        </a>
+                                    </h3>
+                                    <p className="my-2">
+                                        音楽理論の学習・活用に使える個人開発Webアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        どれも自分が20年以上音楽をやる中で、「あったら便利」だと思う機能を具現化しました。
+                                    </p>
+                                    <p className="my-2">　</p>
                                     {/* <iframe
                                         width={"560"}
                                         height={"315"}

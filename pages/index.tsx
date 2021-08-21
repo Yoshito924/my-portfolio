@@ -51,7 +51,9 @@ const Home: NextPage = () => {
               </div> */}
               <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
                 <div>
+
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Yoshito Kimura</h2>
+
                   <p className="mt-3 text-gray-500">
                     キムラ ヨシト
                   </p>

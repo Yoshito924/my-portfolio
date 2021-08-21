@@ -42,7 +42,7 @@ class OriginalApp extends React.Component {
                                 <div className="sm:w-1/1 lg:w-8/12">
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">制作したアプリ紹介</h2>
 
-                                    <p className="mt-3 text-gray-500 w-2/5">プログラミングで作った主な成果物</p>
+                                    <p className="mt-3 text-gray-500 w-2/5">プログラミングで作ったもの</p>
 
                                     <p className="my-2">　</p>
 
