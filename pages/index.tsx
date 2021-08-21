@@ -49,8 +49,8 @@ const Home: NextPage = () => {
                   height={230}
                 />
               </div> */}
-              <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
-                <div>
+              <div className="lg:flex">
+                <div className="sm:w-1/1 lg:w-8/12">
 
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Yoshito Kimura</h2>
 
@@ -68,9 +68,12 @@ const Home: NextPage = () => {
                   </dl>
                 </div>
 
-                <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-4 lg:gap-4 picture">
+                <div className="sm:w-1/1 lg:w-1/12">　</div>
+
+                <div className="sm:w-1/1 lg:w-3/12">
                   <RightColumn></RightColumn>
                 </div>
+
 
               </div>
             </div>

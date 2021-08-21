@@ -39,17 +39,6 @@ class SnsLink extends React.Component {
                                         主な関連ページへのリンクをまとめました。
                                     </p>
 
-                                    <h3 className={styles.midashi}>
-                                        <a className={styles.linka} href="https://readability-checker.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
-                                            O-TO【音楽理論Webアプリ】
-                                        </a>
-                                    </h3>
-                                    <p className="my-2">
-                                        音楽理論の学習・活用に使える個人開発Webアプリです。
-                                    </p>
-                                    <p className="my-2">
-                                        どれも自分が20年以上音楽をやる中で、「あったら便利」だと思う機能を具現化しました。
-                                    </p>
                                     <p className="my-2">　</p>
 
                                     <LinkTree></LinkTree>
