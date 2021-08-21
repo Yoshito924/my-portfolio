@@ -66,7 +66,7 @@ class OriginalApp extends React.Component {
 
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-chords" target={"_blank"} rel={"noopener noreferrer"}>
                                             ①コード情報の検索
                                         </a>
@@ -77,7 +77,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-scale" target={"_blank"} rel={"noopener noreferrer"}>
                                             ②スケール情報の検索
                                         </a>
@@ -87,7 +87,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-modal-interchange" target={"_blank"} rel={"noopener noreferrer"}>
                                             ③コード/モード検索
                                         </a>
@@ -98,7 +98,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-chord-progression" target={"_blank"} rel={"noopener noreferrer"}>
                                             ④コード進行のまとめ
                                         </a>
@@ -111,7 +111,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑤ダイアトニック・コード一覧表
                                         </a>
@@ -124,7 +124,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-modulation" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑥転調の間隔
                                         </a>
@@ -137,7 +137,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑦音価の計算機
                                         </a>
@@ -148,7 +148,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑧メトリック・モジュレーション
                                         </a>
@@ -161,7 +161,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑨コード移調
                                         </a>
@@ -174,8 +174,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-
-                                    <h3 className={styles.midashi}>
+                                    <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑩フィンガー・ボード
                                         </a>
@@ -190,7 +189,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi}>ポートフォリオ・サイト</h3>
                                     <p className="my-2">
-                                        このポートフォリオ・サイトは自分で作りました。
+                                        このポートフォリオ・サイトは、一から自分で作りました。
                                     </p>
                                     <p className="my-2">
                                         Next.jsを使用しています。
