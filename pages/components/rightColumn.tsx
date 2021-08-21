@@ -19,7 +19,7 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                連絡/依頼はこちらから
+                                連絡先
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                音楽作品紹介
+                                音楽作品の紹介
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                開発アプリ紹介
+                                個人開発アプリの紹介
                             </div>
                         </div>
                     </div>
