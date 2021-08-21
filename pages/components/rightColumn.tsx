@@ -19,13 +19,13 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                連絡/依頼はこちら
+                                連絡/依頼はこちらから
                             </div>
                         </div>
                     </div>
                 </Link>
 
-                <Link href="/instrumentGear" passHref>
+                <Link href="/gear" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
@@ -36,7 +36,7 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                楽器演奏/機材の紹介
+                                機材の紹介
                             </div>
                         </div>
                     </div>
@@ -53,13 +53,13 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                制作したアプリ紹介
+                                開発アプリ紹介
                             </div>
                         </div>
                     </div>
                 </Link>
 
-                <Link href="/music" passHref>
+                <Link href="/originalMusic" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
@@ -70,13 +70,13 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                音楽作品集
+                                音楽作品紹介
                             </div>
                         </div>
                     </div>
                 </Link>
 
-                <Link href="/musicTheory" passHref>
+                <Link href="/documents" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
@@ -87,13 +87,13 @@ class RightColumn extends React.Component {
                                 height={600}
                             />
                             <div className={styles.overlappingText}>
-                                音楽系の教材
+                                資料/教材
                             </div>
                         </div>
                     </div>
                 </Link>
 
-                <Link href="/snsLink" passHref>
+                <Link href="/links" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image

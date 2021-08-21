@@ -9,7 +9,7 @@ import Container from '@material-ui/core/Container';
 import Image from 'next/image'
 import RightColumn from './components/rightColumn'
 
-class SnsLink extends React.Component {
+class Links extends React.Component {
     render() {
         return (
             <>
@@ -64,4 +64,4 @@ class SnsLink extends React.Component {
     }
 }
 
-export default SnsLink;
+export default Links;

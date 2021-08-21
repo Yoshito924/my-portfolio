@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <>
                 <div className="center">
-                    <div className="my-3"><Link href="/" passHref>トップページへ</Link></div>
+                    <div className="my-3"><Link href="/" passHref>ページトップへ</Link></div>
                     <li className={"inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"}>
 
                         <a href={"https://www.facebook.com/khufrudamonotes"} rel={"noopener noreferrer"} target={"_blank"} className={"text-gray-500"}>

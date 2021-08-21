@@ -8,15 +8,19 @@ import 'tailwindcss/tailwind.css'
 import Container from '@material-ui/core/Container';
 
 const features = [
+    { name: 'DAW/譜面作成', description: 'Cubase/Finale' },
+    { name: '愛用音源', description: 'UVI Falcon/BFD3/Superior Drummer3/KOMPLETE/Keyscapeなど' },
+    { name: '愛用プラグイン', description: 'UAD2,iZotope,FabFilterなど' },
     { name: 'ギター/ベース', description: 'PRS custom24/Ibanez guitars TAM100/Music Man StingRay' },
     { name: 'アンプ', description: 'Fractal Audio Systems Axe-Fx II' },
     { name: 'キーボード', description: 'KORG KRONOS' },
-    { name: '愛用音源', description: 'UVI Falcon/BFD3/Superior Drummer3/KOMPLETE/Keyscapeなど' },
-    { name: 'ミックス関係', description: 'UAD2,Waves,iZotope,FabFilterなど' },
-    { name: 'DAW/譜面作成', description: 'Cubase/Finale' },
+    { name: 'マイク', description: 'SHURE SM57/audio-technica AT4050' },
+    { name: 'モニター・スピーカー', description: 'YAMAHA MSP5 Studio' },
+    { name: 'モニター・ヘッドフォン', description: 'YAMAHA HPH-MT8/SONY MDR-CD900ST' },
+    { name: 'オーディオ・インターフェース', description: 'Roland STUDIO-CAPTURE UA-1610' },
 ]
 
-class InstrumentGear extends React.Component {
+class Gear extends React.Component {
     render() {
         return (
             <>
@@ -40,7 +44,7 @@ class InstrumentGear extends React.Component {
 
                             <div className="lg:flex">
                                 <div className="sm:w-1/1 lg:w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">楽器演奏/機材の紹介</h2>
+                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">機材の紹介</h2>
 
                                     <p className="mt-3 text-gray-500">主な使用機材の紹介</p>
 
@@ -77,4 +81,4 @@ class InstrumentGear extends React.Component {
     }
 }
 
-export default InstrumentGear;
+export default Gear;

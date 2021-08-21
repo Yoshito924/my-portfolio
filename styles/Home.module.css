@@ -32,8 +32,9 @@
 
 .midashi {
   padding: relative;
-  border-left: 5px solid #59d9ae;
-  background: #7fffd4;
+  border-left: 5px solid #191970;
+  color: #000000;
+  background: #dcdcdc;
   font-size: clamp(0.9rem, 0.9rem + 1vw, 1.4rem);
   padding: 1rem 1rem;
 }

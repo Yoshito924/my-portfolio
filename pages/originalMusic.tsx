@@ -16,7 +16,7 @@ const features = [
     { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
 ]
 
-class Music extends React.Component {
+class OriginalMusic extends React.Component {
     render() {
         return (
             <>
@@ -43,7 +43,7 @@ class Music extends React.Component {
                                     <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">音楽作品集</h2>
 
                                     <p className="my-3 text-gray-500">
-                                        主な音楽作品の紹介
+                                        主なオリジナル曲
                                     </p>
 
                                     <p className="my-2">　</p>
@@ -152,4 +152,4 @@ class Music extends React.Component {
     }
 }
 
-export default Music;
+export default OriginalMusic;
