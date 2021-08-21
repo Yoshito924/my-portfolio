@@ -46,8 +46,8 @@ class RightColumn extends React.Component {
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
-                                src="/DSC05267-3.jpg"
-                                alt="ギターを演奏している写真"
+                                src="/DSC04186-2.jpg"
+                                alt="ギターやベースの写真"
                                 className="bg-gray-100 rounded-lg"
                                 width={1000}
                                 height={600}
@@ -63,7 +63,7 @@ class RightColumn extends React.Component {
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
-                                src="/DSC00560.jpg"
+                                src="/DSC00240_1.jpg"
                                 alt="ランタンの写真"
                                 className="bg-gray-100 rounded-lg"
                                 width={1000}
@@ -97,8 +97,8 @@ class RightColumn extends React.Component {
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
                             <Image
-                                src="/DSC05554.jpg"
-                                alt="紅葉の写真"
+                                src="/DSC04275.jpg"
+                                alt="葉桜の写真"
                                 className="bg-gray-100 rounded-lg"
                                 width={1000}
                                 height={600}
