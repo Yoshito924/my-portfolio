@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
 
 const navigation = [
     { name: 'ホーム', href: '/', current: true },
@@ -43,7 +44,7 @@ class Header extends React.Component {
                                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
 
                                     <div className="flex-shrink-0 flex items-center text-white">
-                                        Yoshito Kimura
+                                        <Link href="/" passHref>Yoshito Kimura</Link>
                                     </div>
 
                                     <div className="hidden sm:block sm:ml-6">
