@@ -107,7 +107,7 @@ class OriginalApp extends React.Component {
                                         よく使われるコード進行を、70種類以上確認できます。
                                     </p>
                                     <p className="my-2">
-                                        表示は、全てのキーとディグリーネームに切り替え可能です。
+                                        表示は、全てのキーとディグリー・ネームに切り替え可能です。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -120,14 +120,13 @@ class OriginalApp extends React.Component {
                                         主なダイアトニック・コード一覧表です。
                                     </p>
                                     <p className="my-2">
-                                        表示は、全てのキーとディグリーネームに切り替え可能です。
+                                        表示は、全てのキーとディグリー・ネームに切り替え可能です。
                                     </p>
                                     <p className="my-2">　</p>
 
-
                                     <h3 className={styles.midashi}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-modulation" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ⑥転調の間隔の導出アプリ
+                                            ⑥転調の間隔
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -158,7 +157,7 @@ class OriginalApp extends React.Component {
                                         音符に関係する情報を簡単に調べられます。
                                     </p>
                                     <p className="my-2">
-                                        整合性を持ったテンポチェンジを考えるときなどに使えます。
+                                        整合性を持ったテンポ・チェンジを考えるときなどに使えます。
                                     </p>
                                     <p className="my-2">　</p>
 
