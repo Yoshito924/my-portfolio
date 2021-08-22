@@ -85,7 +85,9 @@
 /* 全体の枠 */
 .imageText {
   position: relative;
+  margin-top: 0.25rem;
 }
+
 .imageText:hover {
   position: relative;
   transform: scale(1.05, 1.05);

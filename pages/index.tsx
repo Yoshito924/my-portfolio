@@ -74,9 +74,9 @@ const Home: NextPage = () => {
                   <p className="mt-3 text-gray-500">
                     <p>Word / Excel / PowerPoint</p>
                     <p>Cubase / Finale / Cakewalk by BandLab</p>
-                    <p>Photoshop / Premiere Pro / Lightroom</p>
-                    <p>Xmind / drow.io</p>
-                    <p>Visual Studio Code</p>
+                    <p>Photoshop / Premiere Pro / Lightroom / Illustrator</p>
+                    <p>Xmind / drow.io </p>
+                    <p>Visual Studio Code / Google Colaboratory / Jupyter Lab</p>
                   </p>
 
                   <p className="my-2">　</p>
@@ -84,11 +84,10 @@ const Home: NextPage = () => {
                   <h3 className={styles.midashi}>使用経験がある主な技術</h3>
 
                   <p className="mt-3 text-gray-500">
-                    <p>HTML / CSS / JavaScript</p>
-                    <p>Bootstrap / TailwindCSS</p>
-                    <p>TypeScript / Vue.js / React / Next.js</p>
+                    <p>HTML / CSS / Bootstrap / TailwindCSS</p>
+                    <p>JavaScript / TypeScript / Vue.js / React / Next.js</p>
                     <p>Python</p>
-                    <p>GitHub / Google Colaboratory</p>
+                    <p>Git・GitHub</p>
                   </p>
 
                   <p className="my-2">　</p>

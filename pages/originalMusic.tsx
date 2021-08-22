@@ -84,6 +84,10 @@ class OriginalMusic extends React.Component {
                                             <p>→<a className={styles.linka} href={"https://www.youtube.com/playlist?list=PLe5DzYpSmVLnIichF3X6JEL5y7azsg9Nc"} target={"_blank"} rel={"noopener noreferrer"}>
                                                 ミュージックビデオ集(YouTube)
                                             </a></p>
+                                            <p className="my-2">　</p>
+                                            <p>→<a className={styles.linka} href={"https://linkco.re/768bB5a4?lang=ja"} target={"_blank"} rel={"noopener noreferrer"}>
+                                                配信サービス一覧
+                                            </a></p>
                                         </p>
 
 
@@ -111,6 +115,10 @@ class OriginalMusic extends React.Component {
                                             <p className="my-2">　</p>
                                             <p>→<a className={styles.linka} href={"https://www.youtube.com/playlist?list=PLe5DzYpSmVLly-bXLkWXChzlORQeFOvqm"} target={"_blank"} rel={"noopener noreferrer"}>
                                                 ミュージックビデオ集(YouTube)
+                                            </a></p>
+                                            <p className="my-2">　</p>
+                                            <p>→<a className={styles.linka} href={"https://linkco.re/ETgUYS1H?lang=ja"} target={"_blank"} rel={"noopener noreferrer"}>
+                                                配信サービス一覧
                                             </a></p>
                                         </p>
                                         <p className="mt-3 text-gray-500 sm:w-1/1 lg:w-2/5">

@@ -43,7 +43,7 @@ class Contact extends React.Component {
                                     <h3 className={styles.midashi}>キムラ ヨシト個人へ</h3>
 
                                     <p className="my-2">
-                                        下記のメールアドレスより、お気軽にメッセージをお送りください。
+                                        下記のメールアドレスより お気軽にメッセージをお送りください。
                                     </p>
                                     <p className="my-2">
                                         ・kimurayoshito924★gmail.com（★→@）
@@ -53,7 +53,7 @@ class Contact extends React.Component {
 
                                     <h3 className={styles.midashi}>クフルダモ・ノーツへ</h3>
                                     <p className="my-2">
-                                        下記のメールアドレス、<a href="https://docs.google.com/forms/d/e/1FAIpQLSfgnCc6hhg71MmCz6qvoVkitKZ6K1dtLXei0DPxduDf7NfVlQ/viewform?embedded=true">Googleフォーム</a>よりお気軽にメッセージをお送りください。
+                                        下記のメールアドレス、<a href="https://docs.google.com/forms/d/e/1FAIpQLSfgnCc6hhg71MmCz6qvoVkitKZ6K1dtLXei0DPxduDf7NfVlQ/viewform?embedded=true">Googleフォーム</a>より お気軽にメッセージをお送りください。
                                     </p>
                                     <p className="my-2">
                                         ・info★khufrudamonotes.com（★→@）
