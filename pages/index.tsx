@@ -22,7 +22,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Yoshito Kimura-Portfolio</title>
-        <meta name="description" content="Yoshito Kimura-Portfolio" />
+        <meta name="description" content="キムラ ヨシトのポートフォリオ・サイト" />
         <link rel="icon" href="/siteIcon/favicon.ico" />
         <meta
           name="viewport"

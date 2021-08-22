@@ -21,8 +21,8 @@ class OriginalMusic extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>音楽作品 Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="キムラ ヨシトが制作した音楽作品の紹介" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"

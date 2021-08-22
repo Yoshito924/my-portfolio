@@ -13,8 +13,8 @@ class Contact extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>連絡先 Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="連絡はこちらからお願いいたします。" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"

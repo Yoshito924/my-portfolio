@@ -21,8 +21,8 @@ class Documents extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>資料/教材 Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="キムラ ヨシトが作成した資料や教材をまとめたページです。" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"

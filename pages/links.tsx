@@ -14,8 +14,8 @@ class Links extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>リンク Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="キムラ ヨシト関連ページへのリンク集" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"

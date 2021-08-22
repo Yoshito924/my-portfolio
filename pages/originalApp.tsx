@@ -21,8 +21,8 @@ class OriginalApp extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>アプリ紹介 Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="キムラ ヨシトが開発したプロダクトの紹介" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"

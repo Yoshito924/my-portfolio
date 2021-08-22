@@ -25,8 +25,8 @@ class Gear extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Yoshito Kimura-Portfolio</title>
-                    <meta name="description" content="Yoshito Kimura-Portfolio" />
+                    <title>使用機材 Yoshito Kimura-Portfolio</title>
+                    <meta name="description" content="キムラ ヨシトの主な使用機材の紹介" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
                     <meta
                         name="viewport"
