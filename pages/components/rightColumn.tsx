@@ -8,22 +8,6 @@ class RightColumn extends React.Component {
     render() {
         return (
             <>
-                <Link href="/contact" passHref>
-                    <div className={styles.imageText}>
-                        <div className={styles.backgroundImage}>
-                            <Image
-                                src="/DSC04991.jpg"
-                                alt="時計台"
-                                className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
-                            />
-                            <div className={styles.overlappingText}>
-                                連絡先
-                            </div>
-                        </div>
-                    </div>
-                </Link>
 
                 <Link href="/originalMusic" passHref>
                     <div className={styles.imageText}>
@@ -37,23 +21,6 @@ class RightColumn extends React.Component {
                             />
                             <div className={styles.overlappingText}>
                                 音楽作品の紹介
-                            </div>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link href="/gear" passHref>
-                    <div className={styles.imageText}>
-                        <div className={styles.backgroundImage}>
-                            <Image
-                                src="/DSC04186-2.jpg"
-                                alt="ギターやベースの写真"
-                                className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
-                            />
-                            <div className={styles.overlappingText}>
-                                機材の紹介
                             </div>
                         </div>
                     </div>
@@ -76,6 +43,23 @@ class RightColumn extends React.Component {
                     </div>
                 </Link>
 
+                <Link href="/gear" passHref>
+                    <div className={styles.imageText}>
+                        <div className={styles.backgroundImage}>
+                            <Image
+                                src="/DSC04186-2.jpg"
+                                alt="ギターやベースの写真"
+                                className="bg-gray-100 rounded-lg"
+                                width={1000}
+                                height={600}
+                            />
+                            <div className={styles.overlappingText}>
+                                機材の紹介
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
                 <Link href="/documents" passHref>
                     <div className={styles.imageText}>
                         <div className={styles.backgroundImage}>
@@ -88,6 +72,23 @@ class RightColumn extends React.Component {
                             />
                             <div className={styles.overlappingText}>
                                 資料/教材
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link href="/contact" passHref>
+                    <div className={styles.imageText}>
+                        <div className={styles.backgroundImage}>
+                            <Image
+                                src="/DSC04991.jpg"
+                                alt="時計台"
+                                className="bg-gray-100 rounded-lg"
+                                width={1000}
+                                height={600}
+                            />
+                            <div className={styles.overlappingText}>
+                                連絡先
                             </div>
                         </div>
                     </div>
