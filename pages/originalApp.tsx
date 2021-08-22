@@ -56,7 +56,7 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
-                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-chords" target={"_blank"} rel={"noopener noreferrer"}>O-TO【音楽理論Webアプリ】</a></h3>
+                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>O-TO【音楽理論Webアプリ】</a></h3>
 
                                     <p className="my-2">
                                         音楽理論の学習・活用に使える音楽理論Webアプリです。
@@ -113,7 +113,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-diatonic-chords" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑤ダイアトニック・コード一覧表
                                         </a>
                                     </h3>
@@ -139,7 +139,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-note-value" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑦音価の計算機
                                         </a>
                                     </h3>
@@ -150,7 +150,7 @@ class OriginalApp extends React.Component {
 
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-metric-modulation" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑧メトリック・モジュレーション
                                         </a>
                                     </h3>
@@ -163,7 +163,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-degree-change" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑨コード移調
                                         </a>
                                     </h3>
@@ -176,7 +176,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
                                             ⑩フィンガー・ボード
                                         </a>
                                     </h3>

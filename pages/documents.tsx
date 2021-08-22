@@ -82,7 +82,7 @@ class Documents extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi}>
-                                        <a className={styles.linka} href="https://www.youtube.com/user/kimukydr/videos/" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://khufrudamonotes.com/category/music-theory-and-dtm" target={"_blank"} rel={"noopener noreferrer"}>
                                             音楽理論のブログ記事
                                         </a>
                                     </h3>
