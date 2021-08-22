@@ -8,7 +8,7 @@ const features = [
     { name: 'Spotify（スポティファイ）', description: 'アルバムを配信しています。', url: "https://open.spotify.com/artist/3nNyAqPr07cmNuDhq6Ragl?si=ZibXmE07ThaDFlhHS254dw&dl_branch=1" },
     { name: 'Blog（ブログ）', description: '音楽を中心に色々な記事を書いています。', url: "https://khufrudamonotes.com/new-contents" },
     { name: 'Qiita（キータ）', description: 'プログラミング系の内容を書いています。', url: "https://qiita.com/k1mu0419" },
-    { name: 'note（ノート）', description: 'ツイッターに長しブログに短しな文章を書きます。', url: "https://note.com/k1mu" },
+    { name: 'note（ノート）', description: 'ブログに短しツイッターに長しな文章を書きます。', url: "https://note.com/k1mu" },
     { name: 'Twitter（ツイッター）', description: '個人ツイッターです。', url: "https://twitter.com/k1mu0419" },
     { name: 'Instagram（インスタグラム）', description: '個人インスタグラムです。', url: "https://www.instagram.com/k1mu.khufrudamo_notes/" },
     { name: 'Facebook（フェイスブック）', description: 'クフルダモ・ノーツの公式ページ。', url: "https://www.facebook.com/khufrudamonotes" },
