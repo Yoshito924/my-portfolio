@@ -16,6 +16,7 @@ class Contact extends React.Component {
                     <title>連絡先 Yoshito Kimura-Portfolio</title>
                     <meta name="description" content="連絡はこちらからお願いいたします。" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
+                    <meta property="og:image" content="yoshito.png" />
                     <meta
                         name="viewport"
                         content="minimum-scale=1, initial-scale=1, width=device-width"

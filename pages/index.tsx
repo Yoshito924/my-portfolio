@@ -24,6 +24,7 @@ const Home: NextPage = () => {
         <title>Yoshito Kimura-Portfolio</title>
         <meta name="description" content="キムラ ヨシトのポートフォリオ・サイト" />
         <link rel="icon" href="/siteIcon/favicon.ico" />
+        <meta property="og:image" content="yoshito.png" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

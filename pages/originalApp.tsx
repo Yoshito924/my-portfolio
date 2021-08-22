@@ -24,6 +24,7 @@ class OriginalApp extends React.Component {
                     <title>アプリ紹介 Yoshito Kimura-Portfolio</title>
                     <meta name="description" content="キムラ ヨシトが開発したプロダクトの紹介" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
+                    <meta property="og:image" content="yoshito.png" />
                     <meta
                         name="viewport"
                         content="minimum-scale=1, initial-scale=1, width=device-width"

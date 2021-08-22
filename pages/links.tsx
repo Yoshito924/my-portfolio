@@ -17,6 +17,7 @@ class Links extends React.Component {
                     <title>リンク Yoshito Kimura-Portfolio</title>
                     <meta name="description" content="キムラ ヨシト関連ページへのリンク集" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
+                    <meta property="og:image" content="yoshito.png" />
                     <meta
                         name="viewport"
                         content="minimum-scale=1, initial-scale=1, width=device-width"

@@ -24,6 +24,7 @@ class Documents extends React.Component {
                     <title>資料/教材 Yoshito Kimura-Portfolio</title>
                     <meta name="description" content="キムラ ヨシトが作成した資料や教材をまとめたページです。" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
+                    <meta property="og:image" content="yoshito.png" />
                     <meta
                         name="viewport"
                         content="minimum-scale=1, initial-scale=1, width=device-width"

@@ -28,6 +28,7 @@ class Gear extends React.Component {
                     <title>使用機材 Yoshito Kimura-Portfolio</title>
                     <meta name="description" content="キムラ ヨシトの主な使用機材の紹介" />
                     <link rel="icon" href="/siteIcon/favicon.ico" />
+                    <meta property="og:image" content="yoshito.png" />
                     <meta
                         name="viewport"
                         content="minimum-scale=1, initial-scale=1, width=device-width"
