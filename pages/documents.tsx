@@ -73,7 +73,7 @@ class Documents extends React.Component {
 
                                     <h3 className={styles.midashi}>
                                         <a className={styles.linka} href="https://khufrudamonotes.gumroad.com/l/musictheory-mindmap/" target={"_blank"} rel={"noopener noreferrer"}>
-                                            音楽理論ロードマップ
+                                            音楽理論マインドマップ
                                         </a>
                                     </h3>
                                     <p className="my-2">
