@@ -48,21 +48,40 @@ class Header extends React.Component {
                                     </div>
 
                                     <div className="hidden sm:block sm:ml-6">
+
                                         <div className="flex space-x-4">
-                                            {navigation.map((item) => (
-                                                <a
-                                                    key={item.name}
-                                                    href={item.href}
-                                                    className={classNames(
-                                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                                        'px-3 py-2 rounded-md text-sm font-medium'
-                                                    )}
-                                                    aria-current={item.current ? 'page' : undefined}
-                                                >
-                                                    {item.name}
-                                                </a>
-                                            ))}
+
+                                            <a className="flex-shrink-0 flex items-center bg-gray-900 text-white px-3 py-2 rounded-md">
+                                                <Link href="/" passHref>ホーム</Link>
+                                            </a>
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/contact" passHref>連絡先</Link>
+                                            </a>
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/originalMusic" passHref>音楽作品</Link>
+                                            </a>
+
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/originalApp" passHref>アプリ紹介</Link>
+                                            </a>
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/gear" passHref>使用機材</Link>
+                                            </a>
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/documents" passHref>資料/教材</Link>
+                                            </a>
+
+                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
+                                                <Link href="/links" passHref>リンク</Link>
+                                            </a>
+
                                         </div>
+
                                     </div>
                                 </div>
 
