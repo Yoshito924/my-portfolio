@@ -11,8 +11,8 @@ import Image from 'next/image'
 const features = [
   { name: '誕生日', description: '4月19日（牡羊座）' },
   { name: '所属クリエイター・チーム', description: 'KHUFRUDAMO NOTES（クフルダモ・ノーツ）' },
-  { name: '音楽系スキル', description: 'ギター/ベース/ドラム/キーボード/作曲/作詞/編曲/ミキシング/マスタリング/採譜/譜面作成/楽曲分析' },
-  { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
+  { name: '音楽系スキル', description: 'ギター / ベース / ドラム / キーボード / 作曲 / 作詞 / 編曲 / ミキシング / マスタリング / 採譜 / 譜面作成 / 楽曲分析' },
+  { name: 'その他スキル', description: 'プログラミング / イラスト / デザイン / 写真撮影 / 動画編集' },
 ];
 
 const Home: NextPage = () => {
