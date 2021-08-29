@@ -10,9 +10,9 @@ import Container from '@material-ui/core/Container';
 const features = [
     { name: '誕生日', description: '4月19日（牡羊座）' },
     { name: 'クリエイター・チーム', description: 'KHUFRUDAMO NOTES' },
-    { name: '演奏できる楽器', description: 'ギター/ベース/ドラム/キーボード' },
-    { name: '音楽系スキル', description: '作曲/作詞/編曲/ミキシング/採譜/楽曲分析' },
-    { name: 'その他スキル', description: 'プログラミング/イラスト/デザイン/写真撮影/動画編集' },
+    { name: '演奏できる楽器', description: 'ギター / ベース / ドラム / キーボード' },
+    { name: '音楽系スキル', description: '作曲 / 作詞 / 編曲 / ミキシング / 採譜 / 楽曲分析' },
+    { name: 'その他スキル', description: 'プログラミング / イラスト / デザイン / 写真撮影 / 動画編集' },
     { name: '連絡先', description: 'kimurayoshito924★gmail.com（★→@）' },
 ]
 

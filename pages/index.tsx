@@ -5,8 +5,6 @@ import Footer from './components/footer'
 import RightColumn from './components/rightColumn'
 import styles from '../styles/Home.module.css'
 import 'tailwindcss/tailwind.css'
-import Link from 'next/link'
-import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import Image from 'next/image'
 
