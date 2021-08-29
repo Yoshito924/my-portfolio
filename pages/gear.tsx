@@ -8,15 +8,15 @@ import 'tailwindcss/tailwind.css'
 import Container from '@material-ui/core/Container';
 
 const features = [
-    { name: 'DAW/譜面作成', description: 'Cubase/Finale' },
-    { name: '愛用音源', description: 'UVI Falcon/BFD3/Superior Drummer3/KOMPLETE/Keyscapeなど' },
-    { name: '愛用プラグイン', description: 'UAD2,iZotope,FabFilterなど' },
-    { name: 'ギター/ベース', description: 'PRS custom24/Ibanez guitars TAM100/Music Man StingRay' },
+    { name: 'DAW / 譜面作成', description: 'Steinberg Cubase / Finale' },
+    { name: '愛用音源', description: 'UVI Falcon / BFD3 / Superior Drummer3 / KOMPLETE / Keyscapeなど' },
+    { name: '愛用プラグイン', description: 'UAD2 / iZotope / FabFilterなど' },
+    { name: 'ギター / ベース', description: 'PRS custom24 / Ibanez guitars TAM100 / Music Man StingRay' },
     { name: 'アンプ', description: 'Fractal Audio Systems Axe-Fx II' },
     { name: 'キーボード', description: 'KORG KRONOS' },
-    { name: 'マイク', description: 'SHURE SM57/audio-technica AT4050' },
+    { name: 'マイク', description: 'SHURE SM57 / audio-technica AT4050' },
     { name: 'モニター・スピーカー', description: 'YAMAHA MSP5 Studio' },
-    { name: 'モニター・ヘッドフォン', description: 'YAMAHA HPH-MT8/SONY MDR-CD900ST' },
+    { name: 'モニター・ヘッドフォン', description: 'YAMAHA HPH-MT8 / SONY MDR-CD900ST' },
     { name: 'オーディオ・インターフェース', description: 'Roland STUDIO-CAPTURE UA-1610' },
 ]
 
