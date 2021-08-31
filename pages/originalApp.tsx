@@ -49,7 +49,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi}><a className={styles.linka} href="https://readability-checker.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>読みやすさチェッカー</a></h3>
                                     <p className="my-2">
-                                        文章の読みにくい部分をしてくれる、文章校正Webアプリです。
+                                        「読みにくい部分」を教えてくれる文章校正Webアプリです。
                                     </p>
                                     <p className="my-2">
                                         よい文章の書き方や、採点機能もついています。
