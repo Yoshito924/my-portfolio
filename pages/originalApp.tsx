@@ -73,7 +73,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        コード・ネームの構成音と、その関連情報が簡単に分かります。
+                                        100種類以上のコードの構成音や情報を、全てのルート音で調べられるアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        同時に、指定したコードの構成音を含む主なスケールも表示されます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -84,7 +87,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        スケールの構成音と、その関連情報が簡単に分かります。
+                                        60種類以上のスケールの構成音や情報を、全てのキーで調べられるアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        同時に、各スケールの説明も表示されます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -94,7 +100,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        コード・ネームや、モーダル・インターチェンジの候補を検索できます。
+                                        構成音からコード・ネームを検索できるアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        同時に「コードの説明」、「使い方」、「コードの構成音を含む主なスケール」も表示されます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -105,10 +114,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        よく使われるコード進行を、70種類以上確認できます。
+                                        80種類以上のコード進行をまとめたアプリです。
                                     </p>
                                     <p className="my-2">
-                                        表示は、全てのキーとディグリー・ネームに切り替え可能です。
+                                        表示は全てのキーへ切り替え可能なので、実質1000以上のコード進行を確認できます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -118,10 +127,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        主なダイアトニック・コード一覧表です。
+                                        ダイアトニック・コードの一覧表アプリです。
                                     </p>
                                     <p className="my-2">
-                                        表示は、全てのキーとディグリー・ネームに切り替え可能です。
+                                        表示は全てのキーへ切り替え可能です。各コードに対応するモード・スケールも確認できます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -131,10 +140,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        転調の間隔を簡単に確認できます。
+                                        「転調の間隔」を調べられるアプリです。
                                     </p>
                                     <p className="my-2">
-                                        旋法を絡めた転調も調べられます。
+                                        指定したキーがどんな関係性か簡単に分かります。旋法（モード）にも対応しています。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -144,7 +153,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        簡単に主な音符の長さ(音価)の計算ができます。
+                                        指定したBPMの、18種類の「音符の長さ」を計算するアプリです。
+                                    </p>
+                                    <p className="my-2">
+                                        表示は秒、ミリ秒、マイクロ秒、sec、ms、μsに切り替え可能です。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -155,10 +167,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        音符に関係する情報を簡単に調べられます。
+                                        「メトリック・モジュレーション」に関係する情報を調べるアプリです。
                                     </p>
                                     <p className="my-2">
-                                        整合性を持ったテンポ・チェンジを考えるときなどに使えます。
+                                        様々な「音符の音価」と、「同じ音価を持つ別の音符のBPM」が簡単に分かります。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -168,10 +180,10 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        コード進行のテキストを簡単に移調して書き換えます。
+                                        コード進行のテキストを移調するアプリです。
                                     </p>
                                     <p className="my-2">
-                                        今まで人力で書き直していたのが信じられないくらい楽です。
+                                        入力したコード進行のテキストを「12キー全て」と「ディグリー・ネーム」へ変換できます。
                                     </p>
                                     <p className="my-2">　</p>
 
@@ -181,16 +193,16 @@ class OriginalApp extends React.Component {
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        弦楽器の指板を色付けして、構成音やポジションを可視化するアプリです。
+                                        コードやスケールの「指板上のポジション」を可視化するアプリです。
                                     </p>
                                     <p className="my-2">
-                                        トップ・プレイヤーの視点を体感できるはずです。
+                                        ギターだけではなく、ベース、多弦楽器、レフティー表示も可能です。
                                     </p>
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi}>ポートフォリオ・サイト</h3>
                                     <p className="my-2">
-                                        このポートフォリオ・サイトは、一から自分で作りました。
+                                        このポートフォリオ・サイトは自作です。
                                     </p>
                                     <p className="my-2">
                                         Next.jsを使用しています。
