@@ -69,7 +69,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-chords" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ①コード情報の検索
+                                            ①コードの構成音を調べる
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -83,7 +83,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-scale" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ②スケール情報の検索
+                                            ②スケールの構成音を調べる
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -96,7 +96,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-modal-interchange" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ③コード/モード検索
+                                            ③コード・ネーム/モードを検索する
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -110,7 +110,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-chord-progression" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ④コード進行のまとめ
+                                            ④コード進行まとめ
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -136,7 +136,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-modulation" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ⑥転調の間隔
+                                            ⑥転調の間隔・調の関係を調べる
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -149,7 +149,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-note-value" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ⑦音価の計算機
+                                            ⑦音価の計算をする
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -176,7 +176,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-degree-change" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ⑨コード移調
+                                            ⑨コード進行のテキストを移調する
                                         </a>
                                     </h3>
                                     <p className="my-2">
@@ -189,7 +189,7 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
-                                            ⑩フィンガー・ボード
+                                            ⑩弦楽器の指板を可視化する
                                         </a>
                                     </h3>
                                     <p className="my-2">
