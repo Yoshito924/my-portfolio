@@ -15,6 +15,7 @@ const features = [
     { name: 'TikTok（ティックトック）', description: '稀に更新されます。', url: "https://www.tiktok.com/@khufrudamonotes" },
     { name: 'Music scores（楽譜）', description: 'オリジナル曲の譜面データです。', url: "https://khufrudamonotes.gumroad.com/" },
     { name: 'O-TO（音楽理論Webアプリ）', description: '音楽理論の学習・活用に使える自作アプリです。', url: "https://o-to.khufrudamonotes.com/" },
+    { name: 'Metronome（メトロノーム）', description: 'リズムを視覚的に理解できるメトロノーム・アプリです。', url: "https://mwsr.khufrudamonotes.com/metronome" },
     { name: '読みやすさチェッカー（文章校正Webアプリ）', description: '読みにくい部分を教えてくれる自作アプリです。', url: "https://readability-checker.khufrudamonotes.com/" },
     { name: 'bandcamp（バンドキャンプ）', description: 'オリジナル曲を購入できます。', url: "https://khufrudamonotes.bandcamp.com/" },
     { name: 'Streaming（サブスク）', description: 'アルバムを配信しているサービスの一覧です。', url: "https://linkco.re/ETgUYS1H?lang=ja" },
