@@ -200,6 +200,34 @@ class OriginalApp extends React.Component {
                                     </p>
                                     <p className="my-2">　</p>
 
+                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://mwsr.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>音楽ウェブ自習室</a></h3>
+                                    <p className="my-2">
+                                        音楽の勉強に役立つアプリを作って公開しています。
+                                    </p>
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi2}>
+                                        <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/metronome" target={"_blank"} rel={"noopener noreferrer"}>
+                                            メトロノーム（変拍子対応）
+                                        </a>
+                                    </h3>
+                                    <p className="my-2">
+                                        変拍子対応のメトロノームです。拍子の分子は1～30まで、分母は2,4,8,16を選択できます。加えてもう1つ別のクリックも追加できます。
+                                    </p>
+
+                                    <p className="my-2">　</p>
+
+                                    <h3 className={styles.midashi2}>
+                                        <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/polyrhythm-metronome" target={"_blank"} rel={"noopener noreferrer"}>
+                                            メトロノーム（ポリリズム対応）
+                                        </a>
+                                    </h3>
+                                    <p className="my-2">
+                                        ポリリズム対応のメトロノームです。音と視覚でポリリズムを理解できます。1～20までの数値を設定可能です。
+                                    </p>
+                                    <p className="my-2">　</p>
+                                    <p className="my-2">　</p>
+
                                     <h3 className={styles.midashi}>ポートフォリオ・サイト</h3>
                                     <p className="my-2">
                                         このポートフォリオ・サイトは自作です。

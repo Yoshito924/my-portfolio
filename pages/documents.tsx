@@ -93,6 +93,12 @@ class Documents extends React.Component {
 
                                     <p className="my-2">　</p>
 
+                                    <h3 className={styles.midashi}><a className={styles.linka} href="https://mwsr.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>音楽ウェブ自習室</a></h3>
+                                    <p className="my-2">
+                                        音楽の勉強に役立つアプリを作って公開しています。
+                                    </p>
+                                    <p className="my-2">　</p>
+
                                 </div>
 
                                 <div className="sm:w-1/1 lg:w-1/12">　</div>
