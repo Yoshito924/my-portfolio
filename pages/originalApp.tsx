@@ -208,11 +208,23 @@ class OriginalApp extends React.Component {
 
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/metronome" target={"_blank"} rel={"noopener noreferrer"}>
+                                            リズム・トレーニング（教材）
+                                        </a>
+                                    </h3>
+                                    <p className="my-2">
+                                        リズム学習の教材用アプリです。基礎的なリズムの仕組みを、音と視覚で理解できます。
+                                    </p>
+
+                                    <h3 className={styles.midashi2}>
+                                        <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/metronome" target={"_blank"} rel={"noopener noreferrer"}>
                                             メトロノーム（変拍子対応）
                                         </a>
                                     </h3>
                                     <p className="my-2">
-                                        変拍子対応のメトロノームです。拍子の分子は1～30まで、分母は2,4,8,16を選択できます。加えてもう1つ別のクリックも追加できます。
+                                        変拍子対応のメトロノームです。
+                                    </p>
+                                    <p className="my-2">
+                                        拍子の分子は1～30まで、分母は2,4,8,16を選択できます。加えてもう1つ別のクリックも追加できます。
                                     </p>
 
                                     <p className="my-2">　</p>
