@@ -215,6 +215,8 @@ class OriginalApp extends React.Component {
                                         リズム学習の教材用アプリです。基礎的なリズムの仕組みを、音と視覚で理解できます。
                                     </p>
 
+                                    <p className="my-2">　</p>
+
                                     <h3 className={styles.midashi2}>
                                         <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/metronome" target={"_blank"} rel={"noopener noreferrer"}>
                                             メトロノーム（変拍子対応）
@@ -237,7 +239,6 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">
                                         ポリリズム対応のメトロノームです。音と視覚でポリリズムを理解できます。1～20までの数値を設定可能です。
                                     </p>
-                                    <p className="my-2">　</p>
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi}>ポートフォリオ・サイト</h3>
