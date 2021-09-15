@@ -207,7 +207,7 @@ class OriginalApp extends React.Component {
                                     <p className="my-2">　</p>
 
                                     <h3 className={styles.midashi2}>
-                                        <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/metronome" target={"_blank"} rel={"noopener noreferrer"}>
+                                        <a className={styles.linka} href="https://mwsr.khufrudamonotes.com/rhythm-training" target={"_blank"} rel={"noopener noreferrer"}>
                                             リズム・トレーニング（教材）
                                         </a>
                                     </h3>
