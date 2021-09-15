@@ -90,7 +90,7 @@ class OriginalApp extends React.Component {
                                         60種類以上のスケールの構成音や情報を、全てのキーで調べられるアプリです。
                                     </p>
                                     <p className="my-2">
-                                        同時に、各スケールの説明も表示されます。
+                                        同時に、指定したスケールの構成音を含む主なコードも表示されます。
                                     </p>
                                     <p className="my-2">　</p>
 
