@@ -203,7 +203,6 @@
 /* タブレット用のブレークポイント */
 @media only screen and (max-width: 1024px) {
   .main{
-    background-color: #c4ffcb;
     grid-area:main;
       display:grid;
       grid-template:
@@ -215,9 +214,6 @@
 
 /* スマホ用のブレークポイント */
 @media only screen and (max-width: 599px) {
-  .main{
-    background-color: #8ddef7;
-  }
   .music_block{
   grid-area:music_block;
   display:grid;
