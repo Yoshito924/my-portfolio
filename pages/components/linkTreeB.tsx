@@ -24,18 +24,18 @@ const features = [
     { name: 'Link Tree（リンクツリー）', description: 'クフルダモ・ノーツのリンクツリーです。', url: "https://linktr.ee/KHUFRUDAMO_NOTES" },
 ]
 
-class LinkTree extends React.Component {
+class LinkTreeB extends React.Component {
     render() {
         return (
             <>
                 <div className="center">
-                    <dl className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                    <dl className="mt-1">
                         {features.map((feature: any) => (
-                            <div key={feature.name} className="border-t border-gray-300 pt-4">
+                            <div key={feature.name} className="border-b border-gray-300 pt-8">
                                 <a className={styles.linka} href={feature.url} target={"_blank"} rel={"noopener noreferrer"}>
                                     {feature.name}
                                 </a>
-                                <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                                <dd className="mt-1 text-sm text-gray-500">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>
@@ -45,4 +45,4 @@ class LinkTree extends React.Component {
     };
 };
 
-export default LinkTree;
+export default LinkTreeB;

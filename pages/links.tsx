@@ -24,36 +24,26 @@ class Links extends React.Component {
                     />
                 </Head>
 
-                <body>
+                <body className={styles.body}>
                     {/* ヘッダーのコンポーネント */}
                     <header className={styles.header}>
                         <Header></Header>
                     </header>
 
-                    <Container fixed>
-                        <main className={styles.main}>
-                            <div className="lg:flex">
-                                <div className="sm:w-1/1 lg:w-8/12">
-                                    <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">リンク集</h2>
+                    <main className={styles.main}>
+                        <div className={styles.center}>
+                            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-12xl1">リンク集</h2>
 
-                                    <p className="my-3 text-gray-500">
-                                        主な関連ページへのリンクをまとめました。
-                                    </p>
+                            <p className="my-3 text-gray-500">
+                                主な関連ページへのリンクをまとめました。
+                            </p>
 
-                                    <p className="my-2">　</p>
+                            <p className="my-2">　</p>
 
-                                    <LinkTree></LinkTree>
+                            <LinkTree></LinkTree>
+                        </div>
+                    </main >
 
-                                </div>
-
-                                <div className="sm:w-1/1 lg:w-1/12">　</div>
-
-                                <div className="sm:w-1/1 lg:w-3/12">
-                                    <RightColumn></RightColumn>
-                                </div>
-                            </div>
-                        </main >
-                    </Container>
 
                     {/* フッターのコンポーネント */}
                     <footer className={styles.footer} >

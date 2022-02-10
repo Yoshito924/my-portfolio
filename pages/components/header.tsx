@@ -6,15 +6,14 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
+import styles from '/styles/Home.module.css'
 
 const navigation = [
     { name: 'ホーム', href: '/', current: true },
-    { name: '連絡先', href: '/contact', current: false },
-    { name: 'リンク', href: '/links', current: false },
     { name: '音楽作品', href: '/originalMusic', current: false },
-    { name: 'アプリ紹介', href: '/originalApp', current: false },
     { name: '使用機材', href: '/gear', current: false },
-    { name: '資料/教材', href: '/documents', current: false },
+    { name: 'アプリ紹介', href: '/originalApp', current: false },
+    { name: 'リンク', href: '/links', current: false },
 ]
 
 function classNames(...classes: any[]) {
@@ -58,16 +57,7 @@ class Header extends React.Component {
                                             </a>
 
                                             <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
-                                                <Link href="/contact" passHref>連絡先</Link>
-                                            </a>
-
-                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
                                                 <Link href="/originalMusic" passHref>音楽作品</Link>
-                                            </a>
-
-
-                                            <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
-                                                <Link href="/originalApp" passHref>アプリ紹介</Link>
                                             </a>
 
                                             <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
@@ -75,7 +65,7 @@ class Header extends React.Component {
                                             </a>
 
                                             <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">
-                                                <Link href="/documents" passHref>資料/教材</Link>
+                                                <Link href="/originalApp" passHref>アプリ紹介</Link>
                                             </a>
 
                                             <a className="flex-shrink-0 flex items-center text-gray-300 hover:bg-gray-700 hover:text-white">

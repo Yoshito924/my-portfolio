@@ -2,7 +2,7 @@ import React from 'react';
 import 'tailwindcss/tailwind.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '/styles/Home.module.css'
 
 class RightColumn extends React.Component {
     render() {
@@ -16,8 +16,7 @@ class RightColumn extends React.Component {
                                 src="/XR4A1201-2.jpg"
                                 alt="葉桜の写真"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 音楽作品の紹介
@@ -33,8 +32,7 @@ class RightColumn extends React.Component {
                                 src="/DSC00240_1.jpg"
                                 alt="ランタンの写真"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 個人開発アプリの紹介
@@ -50,8 +48,7 @@ class RightColumn extends React.Component {
                                 src="/DSC04186-2.jpg"
                                 alt="ギターやベースの写真"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 機材の紹介
@@ -67,8 +64,7 @@ class RightColumn extends React.Component {
                                 src="/DSC00225.jpg"
                                 alt="海月の写真"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 資料/教材
@@ -84,8 +80,7 @@ class RightColumn extends React.Component {
                                 src="/DSC04991.jpg"
                                 alt="時計台"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 連絡先
@@ -101,8 +96,7 @@ class RightColumn extends React.Component {
                                 src="/DSC04275.jpg"
                                 alt="葉桜の写真"
                                 className="bg-gray-100 rounded-lg"
-                                width={1000}
-                                height={600}
+                                layout="fill" objectFit="contain"
                             />
                             <div className={styles.overlappingText}>
                                 リンク集

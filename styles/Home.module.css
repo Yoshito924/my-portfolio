@@ -1,114 +1,153 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
 
-.container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+/* ===================================================================== */
+.body{
+  padding:0px;
+  margin:0 auto;
+  background-color: whitesmoke;
+  display:grid;
+    grid-template:
+    "header "
+    "......." 1.5rem
+    "main"
+    "......." 1.5rem
+		"footer"
+    /auto;
 }
 
-.main {
-  padding: 1rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Noto Sans JP", sans-serif;
+/* ===================================================================== */
+/* ヘッダー */
+.header{
+  grid-area:header;
+  text-align: center;
 }
 
-
-.footer {
-  width: 100%;
-  height: 100px;
+/* ===================================================================== */
+/* フッター */
+.footer01{
+  grid-area:footer01;
+}
+.footer02{
+  grid-area:footer02;
+}
+.footer a {
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+}
+.top_page_link{
+  display: inline-block;
+}
+.footer{
+  background-color: rgb(235, 235, 235);
+  grid-area:footer;
   border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
+  display: grid;
+    grid-template:
+      "..." 1rem
+      "footer01"
+      "..." 1rem
+      "footer02"
+      "..." 1rem
+      /auto;
+}
+/* ===================================================================== */
+/* メイン */
+.main{
+  grid-area:main;
+    display:grid;
+    grid-template:
+    "... center ... column..."
+		/8rem 3fr 8rem 1fr 5rem;
+}
+.center{
+  grid-area:center;
+  padding:0.7rem;
+}
+.column{
+  grid-area:column;
+    padding:0.7rem;
+}
+/* ===================================================================== */
+/* インデクスページ */
+.profile_text{
+  grid-area:profile_text;
+  display:grid;
+    grid-template:
+    "... profile_image ... profile_skill ..."
+		/0.5rem 1fr 2rem 3fr 0.5rem;
+}
+.profile_image{
+  grid-area:profile_image;
+}
+.profile_skill{
+  grid-area:profile_skill;
+}
+/* ===================================================================== */
+/* 音楽紹介ページ */
+.music_block{
+  grid-area:music_block;
+  display:grid;
+    grid-template:
+    "... music_text ... music_list ..."
+		/0.5rem 3fr 2rem 1fr 0.5rem;
+}
+.music_text{
+  grid-area:music_text;
+}
+.music_list{
+  grid-area:music_list;
+}
+
+/* ===================================================================== */
+.p {
   font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
 }
-
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
 .midashi {
   padding: relative;
-  border-left: 5px solid #191970;
+  border-left: 3px solid #191970;
   color: #000000;
   background: #dcdcdc;
   font-size: clamp(0.9rem, 0.9rem + 1vw, 1.4rem);
-  padding: 1rem 1rem;
+  padding: 0.7rem 1rem;
 }
-
 .midashi2 {
   padding: relative;
-  border-bottom: 5px solid #191970;
+  border-bottom: 2px solid #191970;
   color: #000000;
-
   font-size: clamp(0.8rem, 0.8rem + 1vw, 1.4rem);
-  padding: 0.5rem 1.2rem;
+  padding: 0.3rem 0.8rem;
 }
-
+/* ===================================================================== */
 .linka {
   font-weight: bold;
   text-decoration: none;
 }
-
 .linka:link {
   color: #0000ff;
 }
-
 .linka:visited {
   color: #6600ff;
 }
-
 .linka:hover {
   color: #ff0099;
   text-decoration: underline;
 }
-
 .linka:active {
   color: #33cc00;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-/* 画像への処理*/
-.imageText {
-  position: relative;
-  margin-top: 0.25rem;
-}
-
-.imageText:hover {
-  position: relative;
-  transform: scale(1.05, 1.05);
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.imageText2 {
-  position: relative;
-  margin-top: 0.7rem;
-  margin-bottom: 0.7rem;
-}
-
-.imageText2:hover {
-  position: relative;
-  transform: scale(1.02, 1.02);
-  cursor: pointer;
-  opacity: 0.8;
-}
-
+/* ===================================================================== */
 /* 重ねる文字 */
 .overlappingText {
   position: absolute;
@@ -122,22 +161,72 @@
   width: 100%;
   color: whitesmoke;
   background: rgba(0, 0, 0, 0.4);
-  padding: 0.5rem;
+  padding: 0.6rem;
   line-height: 100%;
   font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+/* ===================================================================== */
+/* 画像への処理*/
+.profile_image{
+    margin: 1rem;
 }
 
-.p {
-  font-size: clamp(0.6rem, 0.6rem + 1vw, 1rem);
+.imageText {
+  position: relative;
+  margin-top: 0.25rem;
+}
+.imageText:hover {
+  position: relative;
+  transform: scale(1.02, 1.02);
+  cursor: pointer;
+  opacity: 0.8;
+}
+.imageText2 {
+  position: relative;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+.imageText2:hover {
+  position: relative;
+  transform: scale(1.02, 1.02);
+  cursor: pointer;
+  opacity: 0.8;
 }
 
-/* 500px以下の画面で適用 */
-@media only screen and (max-width: 600px) {
+/* ===================================================================== */
+/* レスポンシブ対応 */
+@media only screen and (min-width: 1025px) {
+  /* PCだけに適応する */
+}
+
+/* タブレット用のブレークポイント */
+@media only screen and (max-width: 1024px) {
+  .main{
+    background-color: #c4ffcb;
+    grid-area:main;
+      display:grid;
+      grid-template:
+      "center"
+      "column"
+      /auto;
+  }
+}
+
+/* スマホ用のブレークポイント */
+@media only screen and (max-width: 599px) {
+  .main{
+    background-color: #8ddef7;
+  }
+  .music_block{
+  grid-area:music_block;
+  display:grid;
+    grid-template:
+    "music_text"
+    "..." 2rem
+    "music_list"
+		/auto;
+}
   table.mobile-scroll {
     white-space: nowrap;
     /* 折り返されないように */
