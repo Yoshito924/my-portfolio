@@ -314,6 +314,31 @@ class OriginalApp extends React.Component {
                             </p>
                             <p className="my-2">　</p>
 
+
+                            <h3 className={styles.midashi2}>
+                                <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
+                                    ⑪指板からコード/スケール名を逆引き検索
+                                </a>
+                            </h3>
+                            <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
+                                <div className={styles.imageText2}>
+                                    <Image
+                                        src="/app_image/reverse-lookup-fingerboard_thumbnail.png"
+                                        alt="freverse-lookup-fingerboard_thumbnail"
+                                        className="rounded-lg"
+                                        width={1560}
+                                        height={819}
+                                    />
+                                </div>
+                            </a>
+                            <p className="my-2">
+                                指板から選んだ構成音に対応するコード・ネームやスケール名を検索できます。
+                            </p>
+                            <p className="my-2">
+                                偶然弾いたコードやスケールの名前を調べたい時に便利です！
+                            </p>
+                            <p className="my-2">　</p>
+
                             <h3 className={styles.midashi}><a className={styles.linka} href="https://mwsr.khufrudamonotes.com/" target={"_blank"} rel={"noopener noreferrer"}>音楽ウェブ自習室</a></h3>
                             <p className="my-2">
                                 音楽の勉強に役立つアプリを作って公開しています。
