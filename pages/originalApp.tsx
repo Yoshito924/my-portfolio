@@ -316,11 +316,11 @@ class OriginalApp extends React.Component {
 
 
                             <h3 className={styles.midashi2}>
-                                <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
+                                <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-reverse-lookup-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
                                     ⑪指板からコード/スケール名を逆引き検索
                                 </a>
                             </h3>
-                            <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
+                            <a className={styles.linka} href="https://o-to.khufrudamonotes.com/o-to-reverse-lookup-fingerboard" target={"_blank"} rel={"noopener noreferrer"}>
                                 <div className={styles.imageText2}>
                                     <Image
                                         src="/app_image/reverse-lookup-fingerboard_thumbnail.png"
